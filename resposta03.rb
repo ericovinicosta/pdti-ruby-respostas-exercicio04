@@ -5,5 +5,5 @@ for i in 0..3
   notas << gets.to_f
 end
 
-puts "Somatória das Notas #{notas}"
+puts "Notas: #{notas}"
 puts "Média: #{notas.sum / notas.length}"
